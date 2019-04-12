@@ -10,7 +10,7 @@ p.mt-3-text-center {
 color:white;
 }
 a {
-    margin: 10px;
+    padding: 10px;
     color: hsl(191, 51%, 64%);
 }
 
@@ -43,7 +43,7 @@ a {
     color:white;
 } */
 .navbar-light .navbar-nav .nav-link,
-#skills {
+#skills, #skills-button {
     background-color: #54909e;
     color: white;
 }
