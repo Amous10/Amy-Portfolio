@@ -1,0 +1,167 @@
+p {
+    font-size: 17px;
+}
+
+p.mt-3-text-center {
+    margin-right: 40px;
+}
+
+#port{
+color:white;
+}
+a {
+    margin: 10px;
+    color: hsl(191, 51%, 64%);
+}
+
+.nav-link {
+    border-radius: 5px;
+}
+
+.nav-item {
+
+    float: left;
+    margin-left: 10px;
+}
+
+/* .nav-li-a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+} */
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 3px;
+    font-family: 'Lobster Two', cursive;
+    padding: 10px;
+}
+
+/* #skills{
+    background-color: #54909e;
+    color:white;
+} */
+.navbar-light .navbar-nav .nav-link,
+#skills {
+    background-color: #54909e;
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: 10px;
+}
+
+#footer {
+    background-color: #032731e0;
+}
+
+p.mt-3-text-center {
+    margin-right: 30px;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+    /* background-image: url("../Images/images (11).jpeg"); */
+    background-image: url("../Images/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.home .home-content {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.home-content h1 {
+    color: #ECF0F1;
+    margin-bottom: 30px;
+}
+
+.home-content h3 {
+    color: #ECF0F1;
+}
+
+.home-content .btn {
+    border-radius: 30px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.home-content .btn text {
+    font-size: 10px;
+}
+
+.home-content .btn:focus {
+    outline: none;
+}
+
+.about,
+.portfolio,
+#contact {
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.portfolio {
+    background-color: hsl(30, 2%, 84%);
+    background-image: url(../Images/205620.jpg);
+    background-size: 100%;
+
+}
+
+
+q {
+    font-size: 20px;
+}
+
+#quote {
+    margin: 40px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    width: 280px;
+}
+
+.card-img-top {
+    height: 180px;
+    width: 100%;
+}
+
+.card-text {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+#home-icon {
+    font-size: 30px;
+    color: white;
+    float: left;
+}
+
+/* @media (max-width: 667px){
+    .col-sm-3 {
+        width: 40%;
+        float: left;
+    }
+    .card-text {
+        width: 100%;
+    }
+    .form-group {
+        width:  ;
+    }
+} */
+
+/* font-family: 'Marck Script', cursive;
+font-family: 'Cantora One', sans-serif;
+font-family: 'Lobster', cursive; */
