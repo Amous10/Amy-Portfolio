@@ -64,8 +64,8 @@ p.mt-3-text-center {
     height: 100vh;
     width: 100%;
     margin-top: 30px;
-    /* background-image: url("../Images/images (11).jpeg"); */
-    background-image: url("../Images/computer.jpg");
+    /* background-image: url("../images/images (11).jpeg"); */
+    background-image: url("/assets/images/computer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -110,7 +110,7 @@ p.mt-3-text-center {
 
 .portfolio {
     background-color: hsl(30, 2%, 84%);
-    background-image: url(../Images/205620.jpg);
+    background-image: url("/assets/images/205620.jpg");
     background-size: 100%;
 
 }
