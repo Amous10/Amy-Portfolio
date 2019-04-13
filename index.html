@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
 </head>
 
 <body>
@@ -23,15 +25,9 @@
 
 
             <div class="navbar-header">
-                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button> -->
                 <a href="#home" class="navbar-brand">Amy Merrill</a>
             </div>
             <div class="navbar-collapse collapse">
-                <!-- <ul class="nav navbar-nav navbar-right"> -->
                 <ul class="navbar-nav ml-auto">
                     <li><a href="index.html">Home</a></li>&nbsp;
                     <li><a href="#about">About</a></li>&nbsp;
@@ -49,7 +45,7 @@
     <div id="home" class="home">
         <div class="container-fluid wow slideInDown">
             <div class="row">
-                <div class="col-lg-12 col-md-12 home-content">
+                <div class="col-lg-12 col-md-12 home-content fadeInDown" id="intro">
                     <h3>Hello, This is Amy</h3>
                     <h1>Web Developer in Training</h1>
                     <a href="#skills"><button type="button" id="skills-button" class="btn btn-lg">VIEW SKILLS</button></a>
@@ -212,14 +208,9 @@
     <script>
         new WOW().init();
     </script>
-    <script>
-        $(function () { //Find all links to anchors in the same document, and make them scroll smoothly when clicked: To make specific element scroll smooth just add "$(element).smoothScroll()"
-            $('html').smoothScroll(500);
-        });
-    </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/javascript/jquery.smoothscroll.js"></script>
-    <script src="assets/javascript/animate.js"></script>
+
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
