@@ -1,19 +1,24 @@
 html{
     scroll-behavior:smooth;
 }
+@media only screen and (max-width: 767px) {
+    .container, .container-fluid {
+        font-size: 42px;
+    }
+}
 
 p {
     font-size: 17px;
 }
 
-@media (max-width: 667px){
+/* @media (max-width: 667px){
     .container,
     .col-sm-3 {
         width: 40%;
         float: left;
-    }
+    } */
    
-}
+/* } */
 
 
 p.mt-3-text-center {
