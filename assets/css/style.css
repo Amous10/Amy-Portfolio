@@ -120,7 +120,7 @@ p.mt-3-text-center {
 #contact {
     height: 100vh;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .portfolio {
@@ -146,14 +146,27 @@ q {
     width: 280px;
 }
 
+#apps{
+    margin-bottom:5px;
+}
+
+.card {
+    width: 225px;
+}
+.card-body {
+    width: 225px;
+    height: 100px;
+    padding: 5px;
+}
+
 .card-img-top {
-    height: 180px;
+    height: 150px;
     width: 100%;
 }
 
 .card-text {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 
