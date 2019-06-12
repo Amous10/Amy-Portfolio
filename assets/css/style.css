@@ -30,8 +30,9 @@ color:white;
 }
 
 a {
+    font-size: 17px;
     padding: 10px;
-    color: hsl(191, 51%, 64%);
+    color:black;
 }
 
 .nav-link {
@@ -45,30 +46,49 @@ a {
 }
 
 .navbar-light .navbar-brand {
-    color: #f8f9fa;
+    /* color: #f8f9fa; */
     font-size: 34px;
     font-weight: bold;
     line-height: 3px;
     font-family: 'Lobster Two', cursive;
     padding: 10px;
+    background-color: #b0ccd4e0;
+    color: white;
 }
 
 /* #skills{
     background-color: #54909e;
     color:white;
 } */
-.navbar-light .navbar-nav .nav-link,
+.navbar,
 #skills, #skills-button {
-    background-color: #54909e;
+    background-color:#b0ccd4e0;
     color: white;
 }
 
 .navbar-nav {
     margin-left: 10px;
+    background-color:#b0ccd4e0;
+    padding: .75rem .75rem;
 }
 
+.card-body {
+    position: relative;
+}
+.btn-app {
+    display: inline-block;
+    background-color: #b0ccd4e0;
+    color: black;
+    border-radius: 5px;
+    margin: 10px;
+    width: 80%;
+}
+/* #home{
+    background-color: #5d6b6fe0;
+} */
 #footer {
-    background-color: #032731e0;
+    background-color:#b0ccd4e0;
+    line-height: .75rem;
 }
 
 p.mt-3-text-center {
@@ -78,7 +98,7 @@ p.mt-3-text-center {
 .home {
     height: 100vh;
     width: 100%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* background-image: url("../images/images (11).jpeg"); */
     background-image: url("../images/computer.jpg");
     background-repeat: no-repeat;
@@ -115,11 +135,17 @@ p.mt-3-text-center {
     outline: none;
 }
 
-.about,
+.about {
+    margin-top: 20px;
+}
+
 .portfolio,
 #contact {
     height: 100vh;
     width: 100%;
+    margin-top: 20px;
+}
+#quote-container {
     margin-top: 20px;
 }
 
@@ -144,14 +170,21 @@ q {
     margin-right: auto;
     height: 280px;
     width: 280px;
+    border-radius: 132px;
 }
 
 #apps{
     margin-bottom:5px;
 }
 
+#card-container {
+    width:100%;
+}
 .card {
     width: 225px;
+    height: 275px;
+    margin: 15px;
+
 }
 .card-body {
     width: 225px;
@@ -180,3 +213,20 @@ q {
 /* font-family: 'Marck Script', cursive;
 font-family: 'Cantora One', sans-serif;
 font-family: 'Lobster', cursive; */
+
+
+/*------------------------------------------------*/
+
+
+.carousel {
+    margin: 0 auto;
+    width:800px;
+    height: 300px;
+    display: relative;
+  }
+  .carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }
+
+
