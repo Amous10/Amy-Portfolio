@@ -203,12 +203,15 @@ q {
 }
 
 
-#home-icon {
+/* #home-icon {
     font-size: 30px;
     color: white;
     float: left;
-}
+} */
 
+.fas, .fab {
+    font-size:25px;
+}
 
 /* font-family: 'Marck Script', cursive;
 font-family: 'Cantora One', sans-serif;
