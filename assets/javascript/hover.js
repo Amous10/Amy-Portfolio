@@ -58,7 +58,7 @@ var particles = [];
 var pool = [];
 
 var demo = Sketch.create({
-	container: document.getElementById( 'document' )
+	container: document.getElementById( 'container' )
 });
 
 demo.setup = function() {
