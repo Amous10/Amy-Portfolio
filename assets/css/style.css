@@ -10,7 +10,13 @@ body {
     display: block;
 }
 
-
+h2 
+{
+    font-family: 'Lobster Two', cursive;
+    font-size:36px;
+    margin-left: 15px;
+    padding:0;
+}
 #container {
     /* z-index: 1000; */
     position: fixed;
@@ -20,7 +26,9 @@ div {
 }
 
 
-
+#exp, #tech {
+    margin-left:0;
+}
 /* @media (max-width: 667px){
     .container,
     .col-sm-3 {
@@ -191,7 +199,7 @@ q {
     width:100%;
 }
 .card {
-    width: 250px;
+    width: 200px;
     height: 300px;
     margin: 15px;
 
@@ -253,7 +261,11 @@ font-family: 'Lobster', cursive; */
     display: flex;
 }
 
-
+.fa-chevron-right, .fa-chevron-left {
+    font-size:40px;
+    margin-left:5px;
+    padding: 10px;
+}
 /* control image height */
 /* .card-img-top-250 {
     max-height: 300px;
