@@ -1,11 +1,6 @@
 html{
     scroll-behavior:smooth;
 }
-@media only screen and (max-width: 767px) {
-    .container, .container-fluid {
-        font-size: 42px;
-    }
-}
 
 p {
     font-size: 17px;
@@ -229,16 +224,33 @@ font-family: 'Lobster', cursive; */
 
 /*------------------------------------------------*/
 
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
 
-.carousel {
-    margin: 0 auto;
-    width:800px;
-    height: 300px;
-    display: relative;
-  }
-  .carousel img {
-    display: hidden; /* hide images until carousel prepares them */
-    cursor: pointer; /* not needed if you wrap carousel items in links */
-  }
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
 
 
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
