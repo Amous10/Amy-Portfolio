@@ -191,15 +191,14 @@ q {
     width:100%;
 }
 .card {
-    width: 225px;
-    height: 275px;
+    width: 250px;
+    height: 300px;
     margin: 15px;
 
 }
 .card-body {
-    width: 225px;
-    height: 100px;
-    padding: 5px;
+   margin-top: 40px;
+  
 }
 
 .card-img-top {
@@ -223,6 +222,11 @@ font-family: 'Lobster', cursive; */
 
 
 /*------------------------------------------------*/
+.img-app {
+    height: 130%;
+    width: 100%;
+}
+
 
 /* equal card height */
 .row-equal > div[class*='col-'] {
@@ -232,6 +236,7 @@ font-family: 'Lobster', cursive; */
 
 .row-equal .card {
    width: 100%;
+   height: 100%;
 }
 
 /* ensure equal card height inside carousel */
@@ -250,7 +255,7 @@ font-family: 'Lobster', cursive; */
 
 
 /* control image height */
-.card-img-top-250 {
-    max-height: 250px;
+/* .card-img-top-250 {
+    max-height: 300px;
     overflow:hidden;
-}
+} */
