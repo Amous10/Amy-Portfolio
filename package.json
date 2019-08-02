@@ -1,0 +1,23 @@
+{
+  "name": "amy-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amous10/Amy-Portfolio.git"
+  },
+  "author": "amy merrill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amous10/Amy-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Amous10/Amy-Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
